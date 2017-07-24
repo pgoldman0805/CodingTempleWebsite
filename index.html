@@ -1,61 +1,125 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Coding Temple | Programming Bootcamp</title>
+    <title>Coding Temple</title>
     <link href="styles/main.css" rel="stylesheet"  />
 </head>
 <body>
-    <header class="container">
-        <h1>Coding Temple</h1>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="courses.html">Courses</a> |
-            <a href="students.html">Students</a> |
-            <a href="apply.html">Apply Now</a>
+    <header class="container clearfix">
+        <!-- <h1>Coding Temple</h1> -->
+        <div class="col-1-3">
+            <img src="assets/images/logo.png" />
+        </div>
+        <nav class="col-2-3">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="courses.html">Courses</a>
+                </li>
+                <li>
+                    <a href="students.html">Students</a>
+                </li>
+                <li class="alt-link">
+                    <a href="apply.html">Apply Now</a>
+                </li>
+            </ul>
+
         </nav>
+        <!-- <div class="clearfix" /> -->
+
+    </div>
     </header>
     <main>
-        <section class="container">
+        <section class="container clearfix">
             <h2>Classes</h2>
             <article>
-                Coding Temple offers classes at our two campuses located in
-                 Schaumburg, and Chicago.  Currently we offer full and
-                 part-time classes.  Our next classes start January 4th, 2016.
+                <div class="col-1-2">
+                    <img src="assets/images/classes.png"  />
+                </div>
+                <div class="col-1-2">
+                    <p>
+                        Coding Temple offers classes at our two campuses located in
+                         Schaumburg, and Chicago.  Currently we offer full and
+                         part-time classes.  Our next classes start January 4th, 2016.
+                        <a href="apply.html">Start your application...</a>
+                    </p>
 
-                 <a href="apply.html">Start your application...</a>
+
+                 </div>
+                 <!-- <div class="clearfix" /> -->
             </article>
         </section>
-        <section class="container">
+
+
+        <section class="container clearfix">
             <h2>Course Curriculum</h2>
             <article>
-                Technologies covered: JavaScript, C#, ASP.NET MVC, Entity
-                Framework, HTML/CSS, SQL, Git, and more! We will also teach you
-                how to learn as our end goal is to make you adaptable to other
-                similar technologies and future technologies.
+                <div class="col-1-2 float-right">
+                    <img src="assets/images/curriculum.png"  />
+                </div>
+                <div class="col-1-2 float-right">
+                    <p>
+                        Technologies covered: JavaScript, C#, ASP.NET MVC, Entity
+                        Framework, HTML/CSS, SQL, Git, and more! We will also teach you
+                        how to learn as our end goal is to make you adaptable to other
+                        similar technologies and future technologies.
+                        <a href="courses.html">View the Curriculum...</a>
+                    </p>
+
+                </div>
+                <!-- <div class="clearfix" /> -->
             </article>
-            <a href="courses.html">View the Curriculum...</a>
         </section>
-        <section class="container">
+
+        <section class="container clearfix">
             <h2>Current Students</h2>
             <article>
-                Our current cohort consists of students from various backgrounds
-                 and knowledge about the IT industry.
+                <div class="col-1-2">
+                    <img src="assets/images/students.png"  />
+                </div>
+                <div class="col-1-2">
+                    <p>
+                        Our current cohort consists of students from various backgrounds
+                         and knowledge about the IT industry.
+                         <a href="students.html">View more on our students…</a>
+                    </p>
+                </div>
+                <!-- <div class="clearfix" /> -->
             </article>
-            <a href="students.html">View more on our students…</a>
         </section>
     </main>
-    <footer class="container">
-        <aside>
-            <h3>332 S Michigan</h3>
-            <h3>9th Floor</h3>
-            <h3>CHicago, IL, 60604</h3>
-        </aside>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="courses.html">Courses</a> |
-            <a href="students.html">Students</a> |
-            <a href="apply.html">Apply Now</a>
-        </nav>
+
+
+    <footer class="container clearfix">
+        <div class="col-1-3">
+            <img src="assets/images/logo_small.png" />
+            <p>
+                The skills and experience that students achieve at Coding Temple takes them a long way. We offer small classes, so students are able to have a more one on one interaction with our teachers. Our curriculum is designed to make students feel confident and be successful in the workforce once they have completed our course.
+            </p>
+        </div>
+        <div class="col-1-3">
+            <h3>Quick Links</h3>
+            <nav class="footer-nav">
+                <a href="index.html">Home</a> &bull;
+                <a href="courses.html">Courses</a> &bull;
+                <a href="students.html">Students</a> &bull;
+                <a href="apply.html">Apply Now</a>
+            </nav>
+        </div>
+        <div class="col-1-3">
+            <aside>
+                <h3>332 S Michigan</h3>
+                <h3>9th Floor</h3>
+                <h3>CHicago, IL, 60604</h3>
+            </aside>
+        </div>
+        <!-- <div class="clearfix" /> -->
+
+
+
+
     </footer>
 </body>
 </html>
